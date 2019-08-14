@@ -1,0 +1,6 @@
+spim.c:16:6:spim_init	40	static
+spim.c:77:6:SPI_send16b	32	static
+spim.c:91:6:SPI_send8b	32	static
+spim.c:105:6:SPI_recv16b	40	static
+spim.c:121:6:SPI_recv8b	40	static
+spim.c:138:9:SPI_SendRecvByte	16	static

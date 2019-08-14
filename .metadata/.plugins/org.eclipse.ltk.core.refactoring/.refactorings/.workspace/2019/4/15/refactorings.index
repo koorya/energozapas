@@ -1,0 +1,11 @@
+1554791959313	Delete resource 'HX711 driver/src/main.c'
+1554870635028	Delete resource 'NRF24l02_stm32f103/Libraries/STM32F10x_StdPeriph_Driver'
+1554870652807	Delete resource 'NRF24l02_stm32f103/src/stm32f1xx_it.c'
+1554870654747	Delete resource 'NRF24l02_stm32f103/src/stm32f1xx_it.h'
+1554870672123	Delete resource 'NRF24l02_stm32f103/src/stm32f10x_conf.h'
+1554870679357	Delete resource 'NRF24l02_stm32f103/src/main.c'
+1554871191210	Delete resource 'NRF24l02_stm32f103/src/main.h'
+1554872138992	Delete resource 'NRF24l02_stm32f103/src/types.h'
+1554872787589	Delete resource 'NRF24l02_stm32f103/src/gpio'
+1554896090379	Delete 2 resources
+1554983326184	Rename resource 'FirstPrj'

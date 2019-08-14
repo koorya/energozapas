@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HX711_weigher_stm32f103/src/hx711/receiver_hx711&apos; to &apos;receiver_hx711.h&apos;" description="Rename resource &apos;receiver_hx711&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hx711/receiver_hx711" name="receiver_hx711.h" stamp="1565366217603" updateReferences="true"/>
+</session>

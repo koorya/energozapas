@@ -1,0 +1,5 @@
+core_cm3.h:1014:22:NVIC_SetPriority	16	static
+core_cm3.h:1139:26:SysTick_Config	16	static
+main.c:26:6:userExperimentClick	8	static
+main.c:35:6:maintaskWork	176	static
+main.c:69:5:main	16	static

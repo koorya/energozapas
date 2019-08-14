@@ -1,0 +1,2 @@
+adc.c:5:10:ADC_work	4	static
+adc.c:33:6:ADC_Init	4	static

@@ -1,0 +1,7 @@
+K_RCC.c:8:6:K_updatePeriphFreq	8	static
+K_RCC.c:50:6:K_SetExtClockPLL	16	static
+K_RCC.c:144:6:K_SetExtClockDirect	8	static
+K_RCC.c:157:6:K_SetIntClockDirect	8	static
+K_RCC.c:169:6:K_SetIntClockPLL	16	static
+K_RCC.c:226:6:K_initMCOoutput	16	static
+K_RCC.c:253:6:K_setClock	24	static

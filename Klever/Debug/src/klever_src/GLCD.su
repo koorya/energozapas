@@ -1,0 +1,15 @@
+GLCD.c:12:6:SPI_Init	4	static
+GLCD.c:43:6:spi_Send	24	static
+GLCD.c:59:6:glcd_Send	24	static
+GLCD.c:85:6:glcd_Delay	24	static
+GLCD.c:100:6:GLCD_Init	8	static
+GLCD.c:127:6:glcd_Clear_HW	8	static
+GLCD.c:136:6:glcd_Clear_FW	16	static
+GLCD.c:152:6:glcd_Buffer_Clear	16	static
+GLCD.c:162:6:glcd_Show	24	static
+GLCD.c:190:6:glcd_Char	24	static
+GLCD.c:209:6:glcd_String	24	static
+GLCD.c:234:6:glcd_Pixel	24	static
+GLCD.c:253:6:glcd_Line	24	static
+GLCD.c:302:6:Menu_Cursor	24	static
+GLCD.c:334:6:glcd_Float	16	static

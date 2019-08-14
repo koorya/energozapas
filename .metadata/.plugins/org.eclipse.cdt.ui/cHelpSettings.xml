@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cHelpSettings>
+<project name="Portable_weigher_HX711">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+<provider id="org.eclipse.linuxtools.cdt.libhover.provider">
+<book enabled="true" title="glibc library"/>
+<book enabled="true" title="newlib library"/>
+</provider>
+</project>
+<project name="HX711_weigher_stm32f103">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+<provider id="org.eclipse.linuxtools.cdt.libhover.provider">
+<book enabled="true" title="glibc library"/>
+<book enabled="true" title="newlib library"/>
+</provider>
+</project>
+</cHelpSettings>

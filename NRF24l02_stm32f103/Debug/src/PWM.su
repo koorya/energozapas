@@ -1,0 +1,4 @@
+PWM.c:11:6:PWM_Init	4	static
+PWM.c:64:6:PWM_Enable	4	static
+PWM.c:75:6:PWM_Disable	4	static
+PWM.c:88:6:PWM_Update	16	static

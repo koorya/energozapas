@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;HX711_weigher_stm32f103&apos;" deleteContents="false" description="Delete resource &apos;HX711_weigher_stm32f103&apos;" element1="/HX711_weigher_stm32f103" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1565704808814"/>&#x0A;<refactoring comment="Delete resource &apos;HX711_weigher_stm32f103&apos;" deleteContents="false" description="Delete resource &apos;HX711_weigher_stm32f103&apos;" element1="/HX711_weigher_stm32f103" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1565785643537"/>
+</session>

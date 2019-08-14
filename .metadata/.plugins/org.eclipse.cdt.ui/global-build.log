@@ -1,0 +1,217 @@
+17:34:15 **** Incremental Build of configuration Debug for project Klever ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\klever_src\tension_math.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\tension_math.o 
+arm-atollic-eabi-gcc -o Klever.elf src\klever_src\ADC.o src\klever_src\GLCD.o src\klever_src\GPIO.o src\klever_src\I2C.o src\klever_src\K_RCC\K_RCC.o src\klever_src\MEM.o src\klever_src\PWM.o src\klever_src\RTC.o src\klever_src\TIM.o src\klever_src\lcd_menu\Keyboard.o src\klever_src\lcd_menu\menu_callback.o src\klever_src\lcd_menu\menu_init.o src\klever_src\lcd_menu\screen.o src\klever_src\log.o src\klever_src\main_sm.o src\klever_src\modbus.o src\klever_src\pid.o src\klever_src\tension_math.o src\klever_src\usart.o src\main.o src\startup_stm32f10x_cl.o src\system_stm32f10x.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=Klever.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list Klever.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  43708	    436	  19348	  63492	   f804	Klever.elf
+Print size information done
+Generate listing file
+Output sent to: Klever.list
+Generate listing file done
+Generate build reports done
+Info: Nothing to build for Klever
+17:58:05 **** Incremental Build of configuration Debug for project Klever ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\klever_src\tension_math.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\tension_math.o 
+arm-atollic-eabi-gcc -o Klever.elf src\klever_src\ADC.o src\klever_src\GLCD.o src\klever_src\GPIO.o src\klever_src\I2C.o src\klever_src\K_RCC\K_RCC.o src\klever_src\MEM.o src\klever_src\PWM.o src\klever_src\RTC.o src\klever_src\TIM.o src\klever_src\lcd_menu\Keyboard.o src\klever_src\lcd_menu\menu_callback.o src\klever_src\lcd_menu\menu_init.o src\klever_src\lcd_menu\screen.o src\klever_src\log.o src\klever_src\main_sm.o src\klever_src\modbus.o src\klever_src\pid.o src\klever_src\tension_math.o src\klever_src\usart.o src\main.o src\startup_stm32f10x_cl.o src\system_stm32f10x.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=Klever.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list Klever.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  43716	    436	  19348	  63500	   f80c	Klever.elf
+Print size information done
+Generate listing file
+Output sent to: Klever.list
+Generate listing file done
+Generate build reports done
+19:43:19 **** Incremental Build of configuration Debug for project Klever ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\klever_src\tension_math.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\tension_math.o 
+arm-atollic-eabi-gcc -o Klever.elf src\klever_src\ADC.o src\klever_src\GLCD.o src\klever_src\GPIO.o src\klever_src\I2C.o src\klever_src\K_RCC\K_RCC.o src\klever_src\MEM.o src\klever_src\PWM.o src\klever_src\RTC.o src\klever_src\TIM.o src\klever_src\lcd_menu\Keyboard.o src\klever_src\lcd_menu\menu_callback.o src\klever_src\lcd_menu\menu_init.o src\klever_src\lcd_menu\screen.o src\klever_src\log.o src\klever_src\main_sm.o src\klever_src\modbus.o src\klever_src\pid.o src\klever_src\tension_math.o src\klever_src\usart.o src\main.o src\startup_stm32f10x_cl.o src\system_stm32f10x.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=Klever.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list Klever.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  43716	    436	  19348	  63500	   f80c	Klever.elf
+Print size information done
+Generate listing file
+Output sent to: Klever.list
+Generate listing file done
+Generate build reports done
+19:43:55 **** Incremental Build of configuration Debug for project Klever ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\klever_src\tension_math.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\tension_math.o 
+arm-atollic-eabi-gcc -o Klever.elf src\klever_src\ADC.o src\klever_src\GLCD.o src\klever_src\GPIO.o src\klever_src\I2C.o src\klever_src\K_RCC\K_RCC.o src\klever_src\MEM.o src\klever_src\PWM.o src\klever_src\RTC.o src\klever_src\TIM.o src\klever_src\lcd_menu\Keyboard.o src\klever_src\lcd_menu\menu_callback.o src\klever_src\lcd_menu\menu_init.o src\klever_src\lcd_menu\screen.o src\klever_src\log.o src\klever_src\main_sm.o src\klever_src\modbus.o src\klever_src\pid.o src\klever_src\tension_math.o src\klever_src\usart.o src\main.o src\startup_stm32f10x_cl.o src\system_stm32f10x.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=Klever.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list Klever.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  43708	    436	  19348	  63492	   f804	Klever.elf
+Print size information done
+Generate listing file
+Output sent to: Klever.list
+Generate listing file done
+Generate build reports done
+19:45:53 **** Incremental Build of configuration Debug for project Klever ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\klever_src\lcd_menu\menu_init.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\lcd_menu\menu_init.o 
+arm-atollic-eabi-gcc -o Klever.elf src\klever_src\ADC.o src\klever_src\GLCD.o src\klever_src\GPIO.o src\klever_src\I2C.o src\klever_src\K_RCC\K_RCC.o src\klever_src\MEM.o src\klever_src\PWM.o src\klever_src\RTC.o src\klever_src\TIM.o src\klever_src\lcd_menu\Keyboard.o src\klever_src\lcd_menu\menu_callback.o src\klever_src\lcd_menu\menu_init.o src\klever_src\lcd_menu\screen.o src\klever_src\log.o src\klever_src\main_sm.o src\klever_src\modbus.o src\klever_src\pid.o src\klever_src\tension_math.o src\klever_src\usart.o src\main.o src\startup_stm32f10x_cl.o src\system_stm32f10x.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=Klever.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list Klever.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  43804	    436	  19348	  63588	   f864	Klever.elf
+Print size information done
+Generate listing file
+Output sent to: Klever.list
+Generate listing file done
+Generate build reports done
+19:46:18 **** Incremental Build of configuration Debug for project Klever ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\klever_src\lcd_menu\menu_init.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\lcd_menu\menu_init.o 
+arm-atollic-eabi-gcc -o Klever.elf src\klever_src\ADC.o src\klever_src\GLCD.o src\klever_src\GPIO.o src\klever_src\I2C.o src\klever_src\K_RCC\K_RCC.o src\klever_src\MEM.o src\klever_src\PWM.o src\klever_src\RTC.o src\klever_src\TIM.o src\klever_src\lcd_menu\Keyboard.o src\klever_src\lcd_menu\menu_callback.o src\klever_src\lcd_menu\menu_init.o src\klever_src\lcd_menu\screen.o src\klever_src\log.o src\klever_src\main_sm.o src\klever_src\modbus.o src\klever_src\pid.o src\klever_src\tension_math.o src\klever_src\usart.o src\main.o src\startup_stm32f10x_cl.o src\system_stm32f10x.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=Klever.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list Klever.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  43804	    436	  19348	  63588	   f864	Klever.elf
+Print size information done
+Generate listing file
+Output sent to: Klever.list
+Generate listing file done
+Generate build reports done
+19:48:20 **** Incremental Build of configuration Debug for project Klever ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\klever_src\lcd_menu\menu_init.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\lcd_menu\menu_init.o 
+arm-atollic-eabi-gcc -c ..\src\klever_src\lcd_menu\screen.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\lcd_menu\screen.o 
+arm-atollic-eabi-gcc -c ..\src\main.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\main.o 
+arm-atollic-eabi-gcc -c ..\src\klever_src\lcd_menu\Keyboard.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\lcd_menu\Keyboard.o 
+arm-atollic-eabi-gcc -c ..\src\klever_src\lcd_menu\menu_callback.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\lcd_menu\menu_callback.o 
+arm-atollic-eabi-gcc -o Klever.elf src\klever_src\ADC.o src\klever_src\GLCD.o src\klever_src\GPIO.o src\klever_src\I2C.o src\klever_src\K_RCC\K_RCC.o src\klever_src\MEM.o src\klever_src\PWM.o src\klever_src\RTC.o src\klever_src\TIM.o src\klever_src\lcd_menu\Keyboard.o src\klever_src\lcd_menu\menu_callback.o src\klever_src\lcd_menu\menu_init.o src\klever_src\lcd_menu\screen.o src\klever_src\log.o src\klever_src\main_sm.o src\klever_src\modbus.o src\klever_src\pid.o src\klever_src\tension_math.o src\klever_src\usart.o src\main.o src\startup_stm32f10x_cl.o src\system_stm32f10x.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=Klever.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list Klever.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  43948	    436	  19348	  63732	   f8f4	Klever.elf
+Print size information done
+Generate listing file
+Output sent to: Klever.list
+Generate listing file done
+Generate build reports done
+21:07:54 **** Rebuild of configuration Debug for project HX711_weigher_stm32f103 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\menu_callback.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\menu_callback.o 
+arm-atollic-eabi-gcc -c ..\src\bkp\bkp.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\bkp\bkp.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.o 
+arm-atollic-eabi-gcc -c ..\src\system_stm32f10x.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\system_stm32f10x.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\screen.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\screen.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\Keyboard.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\Keyboard.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.o 
+arm-atollic-eabi-gcc -c ..\src\main.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\main.o 
+arm-atollic-eabi-gcc -c ..\src\usart\usart.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\usart\usart.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.o 
+arm-atollic-eabi-gcc -c ..\src\gldc\GLCD.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\gldc\GLCD.o 
+arm-atollic-eabi-gcc -c ..\src\stm32f1xx_it.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\stm32f1xx_it.o 
+arm-atollic-eabi-gcc -c ..\src\hx711\receiver_hx711.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\hx711\receiver_hx711.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.o 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -g -Wa,--warn -x assembler-with-cpp -specs=nano.specs -o src\startup_stm32f10x_md.o ..\src\startup_stm32f10x_md.s 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\misc.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\menu_init.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\menu_init.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.o 
+arm-atollic-eabi-gcc -c ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.o 
+arm-atollic-eabi-gcc -o HX711_weigher_stm32f103.elf Libraries\STM32F10x_StdPeriph_Driver\src\misc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.o src\bkp\bkp.o src\gldc\GLCD.o src\hx711\receiver_hx711.o src\lcd_menu\Keyboard.o src\lcd_menu\menu_callback.o src\lcd_menu\menu_init.o src\lcd_menu\screen.o src\main.o src\startup_stm32f10x_md.o src\stm32f1xx_it.o src\system_stm32f10x.o src\usart\usart.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=HX711_weigher_stm32f103.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list HX711_weigher_stm32f103.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  19496	    172	   4792	  24460	   5f8c	HX711_weigher_stm32f103.elf
+Print size information done
+Generate listing file
+Output sent to: HX711_weigher_stm32f103.list
+Generate listing file done
+Generate build reports done
+Info: Nothing to build for HX711_weigher_stm32f103
+Info: Nothing to build for HX711_weigher_stm32f103
+Info: Nothing to build for HX711_weigher_stm32f103
+Info: Nothing to build for HX711_weigher_stm32f103
+12:59:38 **** Incremental Build of configuration Debug for project HX711_weigher_stm32f103 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\Keyboard.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\Keyboard.o 
+arm-atollic-eabi-gcc -c ..\src\main.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\main.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\menu_init.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\menu_init.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\screen.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\screen.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\menu_callback.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\menu_callback.o 
+arm-atollic-eabi-gcc -c ..\src\stm32f1xx_it.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\stm32f1xx_it.o 
+arm-atollic-eabi-gcc -o HX711_weigher_stm32f103.elf Libraries\STM32F10x_StdPeriph_Driver\src\misc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.o src\bkp\bkp.o src\gldc\GLCD.o src\hx711\receiver_hx711.o src\lcd_menu\Keyboard.o src\lcd_menu\menu_callback.o src\lcd_menu\menu_init.o src\lcd_menu\screen.o src\main.o src\startup_stm32f10x_md.o src\stm32f1xx_it.o src\system_stm32f10x.o src\usart\usart.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=HX711_weigher_stm32f103.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar convert-hex sizeinfo list HX711_weigher_stm32f103.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: HX711_weigher_stm32f103.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  19992	    172	   4792	  24956	   617c	HX711_weigher_stm32f103.elf
+Print size information done
+Generate listing file
+Output sent to: HX711_weigher_stm32f103.list
+Generate listing file done
+Generate build reports done
+14:03:46 **** Incremental Build of configuration Debug for project HX711_weigher_stm32f103 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\stm32f1xx_it.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\stm32f1xx_it.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\menu_init.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\menu_init.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\screen.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\screen.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\menu_callback.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\menu_callback.o 
+arm-atollic-eabi-gcc -c ..\src\main.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\main.o 
+arm-atollic-eabi-gcc -c ..\src\lcd_menu\Keyboard.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\lcd_menu\Keyboard.o 
+arm-atollic-eabi-gcc -o HX711_weigher_stm32f103.elf Libraries\STM32F10x_StdPeriph_Driver\src\misc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.o src\bkp\bkp.o src\gldc\GLCD.o src\hx711\receiver_hx711.o src\lcd_menu\Keyboard.o src\lcd_menu\menu_callback.o src\lcd_menu\menu_init.o src\lcd_menu\screen.o src\main.o src\startup_stm32f10x_md.o src\stm32f1xx_it.o src\system_stm32f10x.o src\usart\usart.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=HX711_weigher_stm32f103.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar convert-hex sizeinfo list HX711_weigher_stm32f103.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: HX711_weigher_stm32f103.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  19992	    172	   4792	  24956	   617c	HX711_weigher_stm32f103.elf
+Print size information done
+Generate listing file
+Output sent to: HX711_weigher_stm32f103.list
+Generate listing file done
+Generate build reports done
+15:13:23 **** Incremental Build of configuration Debug for project HX711_weigher_stm32f103 ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\main.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/STM32F10x_StdPeriph_Driver/inc -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\main.o 
+arm-atollic-eabi-gcc -o HX711_weigher_stm32f103.elf Libraries\STM32F10x_StdPeriph_Driver\src\misc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.o Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.o src\bkp\bkp.o src\gldc\GLCD.o src\hx711\receiver_hx711.o src\lcd_menu\Keyboard.o src\lcd_menu\menu_callback.o src\lcd_menu\menu_init.o src\lcd_menu\screen.o src\main.o src\startup_stm32f10x_md.o src\stm32f1xx_it.o src\system_stm32f10x.o src\usart\usart.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=HX711_weigher_stm32f103.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar convert-hex sizeinfo list HX711_weigher_stm32f103.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: HX711_weigher_stm32f103.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  19928	    172	   4792	  24892	   613c	HX711_weigher_stm32f103.elf
+Print size information done
+Generate listing file
+Output sent to: HX711_weigher_stm32f103.list
+Generate listing file done
+Generate build reports done
+Info: Nothing to build for HX711_weigher_stm32f103

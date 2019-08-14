@@ -1,0 +1,21 @@
+19:48:20 **** Incremental Build of configuration Debug for project Klever ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\klever_src\lcd_menu\menu_init.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\lcd_menu\menu_init.o 
+arm-atollic-eabi-gcc -c ..\src\klever_src\lcd_menu\screen.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\lcd_menu\screen.o 
+arm-atollic-eabi-gcc -c ..\src\main.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\main.o 
+arm-atollic-eabi-gcc -c ..\src\klever_src\lcd_menu\Keyboard.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\lcd_menu\Keyboard.o 
+arm-atollic-eabi-gcc -c ..\src\klever_src\lcd_menu\menu_callback.c -mthumb -mcpu=cortex-m3 -std=gnu11 -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -I../src -I../Libraries/CMSIS/Device/ST/STM32F10x/Include -I../Libraries/CMSIS/Include -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\klever_src\lcd_menu\menu_callback.o 
+arm-atollic-eabi-gcc -o Klever.elf src\klever_src\ADC.o src\klever_src\GLCD.o src\klever_src\GPIO.o src\klever_src\I2C.o src\klever_src\K_RCC\K_RCC.o src\klever_src\MEM.o src\klever_src\PWM.o src\klever_src\RTC.o src\klever_src\TIM.o src\klever_src\lcd_menu\Keyboard.o src\klever_src\lcd_menu\menu_callback.o src\klever_src\lcd_menu\menu_init.o src\klever_src\lcd_menu\screen.o src\klever_src\log.o src\klever_src\main_sm.o src\klever_src\modbus.o src\klever_src\pid.o src\klever_src\tension_math.o src\klever_src\usart.o src\main.o src\startup_stm32f10x_cl.o src\system_stm32f10x.o -mthumb -mcpu=cortex-m3 -T../stm32_flash.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=Klever.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list Klever.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  43948	    436	  19348	  63732	   f8f4	Klever.elf
+Print size information done
+Generate listing file
+Output sent to: Klever.list
+Generate listing file done
+Generate build reports done
+
+19:48:22 Build Finished (took 2s.58ms)
+
