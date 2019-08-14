@@ -117,6 +117,7 @@ void usart2_init(void) /*RS485*/
 }
 
 void sendStrToUart2(char *str, char size){
+
 	while(DMA1_Channel7->CNDTR);
 	//		GPIOA->BSRR = GPIO_BSRR_BR1; //включаем на прием микросхему max485
 	GPIOA->BSRR = GPIO_BSRR_BS1; //включаем на отправку микросхему max485
