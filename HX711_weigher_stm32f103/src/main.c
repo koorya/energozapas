@@ -43,6 +43,7 @@ void maintaskWork(void){
 		double n = (((double)RECEIVE_DATA[3]-tenzo_zero_ofset)/0xffffff)*1000.0;
 		n /= 128.0;
 
+
 		current_value = (n*f/k);
 //		current_value = 4.9348 * current_value + 32.651;
 
